@@ -18,7 +18,7 @@ class DBConnection:
             :return: Connection object or None
         """
         try:
-            conn = sq.connect(DBConnection.db_name)
+            conn = sq.connect(DBConnection.db_name, check_same_thread=False)
         except sq.Error as e:
             raise e
 
