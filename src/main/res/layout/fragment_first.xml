@@ -10,27 +10,27 @@
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HI"
+        android:text="Enter Username"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
 
     <Button
         android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:layout_width="101dp"
+        android:layout_height="65dp"
+        android:text="START"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="209dp"
-        android:layout_height="498dp"
-        android:src="@drawable/Granny"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="26dp" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="251dp"
+        android:layout_height="64dp"
+        android:hint="hint"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="322dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
