@@ -30,7 +30,7 @@ State game – in each situation is described as choosing how to act:
 
 ## Tech used:
 * Server side - python, flask, postman (as QA)
-* Client side - java, android side
+* Client side - java, android studio
 
 ## Members
 * Ron Hugi - Team Leader, Full Stack dev
