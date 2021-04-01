@@ -29,8 +29,8 @@ State game – in each situation is described as choosing how to act:
 * Educational and educational game
 
 ## Tech used:
-Server side - python, flask, postman (as QA)
-Client side - java, android side
+* Server side - python, flask, postman (as QA)
+* Client side - java, android side
 
 ## Members
 * Ron Hugi - Team Leader, Full Stack dev
