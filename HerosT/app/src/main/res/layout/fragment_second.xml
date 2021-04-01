@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/klaf_image"
+    tools:context=".SecondFragment">
+
+
+    <TextView
+        android:id="@+id/firstHeroName"
+        android:layout_width="166dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Anne Frank"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toEndOf="@+id/annaImg"
+        app:layout_constraintTop_toTopOf="@+id/annaImg"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/annaImg"
+        android:layout_width="196dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/anne_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="182dp"
+        android:layout_height="78dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Start Level"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:backgroundTint="#23FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toEndOf="@+id/annaImg"
+        app:layout_constraintTop_toBottomOf="@+id/firstHeroName"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/startLevel_annaF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B9673E02"
+        android:text="חזרה למסך הקודם"
+        app:backgroundTint="#B9673E02"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.771" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

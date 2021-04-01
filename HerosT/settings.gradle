@@ -1,0 +1,4 @@
+include ':json-simple-1.1.1'
+include ':JsonDll'
+include ':app'
+rootProject.name = "HerosT"

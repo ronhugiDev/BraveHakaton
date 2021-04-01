@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardsActivity">
+
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffeee9e2"
+        app:layout_anchor="@+id/frame"
+        app:layout_anchorGravity="center"
+        app:rotation_degrees="15.5"
+        tools:context=".MyActivity" />
+
+    <Button
+        android:id="@+id/endLvlBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="#85E30F0F"
+        android:text="סיום"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9CE41919" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
