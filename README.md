@@ -37,4 +37,4 @@ State game – in each situation is described as choosing how to act:
 * Nadav Shani - Member, backend
 * Matan Rodinski - Member, UI/UX
 * Tal Bareli - Member, UI/UX
-* Hanna Mordechai - Memberת UI/UX
+* Hanna Mordechai - Member UI/UX
